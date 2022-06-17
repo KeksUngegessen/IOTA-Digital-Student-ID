@@ -9,19 +9,19 @@ Die Webanwendung soll im Prototyp einen digitalen Studentenausweis abbilden.
 
 - Digitaler Studentenausweis auf IOTA-Basis
   - Webanwendung, Framework steht frei zur Verfügung (Vorschlag: React)
-  - Backend (RUST oder JavaScript)
+  - (Backend RUST oder JavaScript)
 
 # Entwicklungsphasen
 
-## Einarbeitung **_We are here ☚_**
+## Einarbeitung
 
 - Quellen lesen
 - Sich Team Front- oder Backend zuordnen
 - Team Frontend: Sich auf ein Framework einigen
-- Team Backend: Rust installieren und vertraut machen
+- (Team Backend: Rust installieren und vertraut machen)
 - Optional: Grundlegendes Verständnis zum Thema DLT, IOTA und dem Tangle aufbauen.
 
-## I Entwicklung eines Projektplanes
+## I Entwicklung eines Projektplanes **_We are here ☚_**
 
 - Entgültige Einteilung in Front- oder Backend
 
