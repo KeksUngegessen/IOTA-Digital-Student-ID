@@ -1,1 +1,34 @@
-<p>register-page works!</p>
+<div class="content">
+    <div class="register-form-container">
+        <form class="register-form" appearance="fill">
+            <div class="heading">Register</div>
+            <div class="login">Already have an account? <a routerLink="/login">Log in here</a></div>
+            <div class="name">
+                <mat-form-field class="register name" appearance="fill">
+                  <mat-label>First Name</mat-label>
+                  <input matInput placeholder="Enter First Name">
+                </mat-form-field>
+                <mat-form-field class="register name" appearance="fill">
+                  <mat-label>Last Name</mat-label>
+                  <input matInput placeholder="Enter Last Name">
+                </mat-form-field>
+            </div>
+            <mat-form-field class="register email" appearance="fill">
+              <mat-label>E-Mail</mat-label>
+              <input matInput placeholder="Enter E-Mail Adress">
+            </mat-form-field>
+            
+            <mat-form-field class="register password" appearance="fill">
+                <mat-label>Password</mat-label>
+                <input matInput type="password">
+            </mat-form-field>
+
+            <mat-form-field class="register password" appearance="fill">
+                <mat-label>Confirm Password</mat-label>
+                <input matInput type="password">
+            </mat-form-field>
+    
+            <button mat-raised-button color="primary" class="login-button">Register</button>
+          </form>
+    </div>
+</div>

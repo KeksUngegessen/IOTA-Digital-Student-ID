@@ -3,8 +3,6 @@
     justify-content: center;
     align-items: center;
     height: 100%;
-    background-image: url("../../img/background.jpg");
-    background-size: 100%;
 }
 
 .login-form {
@@ -15,11 +13,33 @@
     /* opacity: 90%; */
 }
 
+.login {
+    color: white;
+    font-size: 2vh;
+}
+
+mat-label {
+    color: white;
+}
+
 .heading {
     color: white;
     font-size: 7vh;
     margin: auto;
-    margin-bottom: 20%;
+    margin-bottom: 10%;
+}
+
+.register {
+    color: white;
+    font-size: 2vh;
+    margin: auto;
+    margin-bottom: 8%;
+}
+
+a {
+    color: rgb(92, 92, 255);
+    text-decoration: none;
+
 }
 
 /* .login {
