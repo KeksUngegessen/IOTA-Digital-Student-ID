@@ -1,0 +1,12 @@
+<div class="content">
+    <div class="data-container">
+        <div class="heading">My Identity</div>
+        <mat-list *ngFor="let item of sampleData">
+            <mat-list-item> 
+                <div class="data-display-container">
+                    <div class="data-name-container">{{ item.displayName }}:</div><div class="data-value-container">{{ item.value }}</div>
+                </div>
+            </mat-list-item>
+        </mat-list>
+    </div>
+</div>

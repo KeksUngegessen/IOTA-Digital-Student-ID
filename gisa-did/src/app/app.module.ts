@@ -11,6 +11,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { MatInputModule } from '@angular/material/input';
 import { MatButtonModule } from '@angular/material/button';
+import { MyIdentityPageComponent } from './my-identity-page/my-identity-page.component';
+import { MatListModule } from '@angular/material/list';
 
 
 @NgModule({
@@ -19,14 +21,16 @@ import { MatButtonModule } from '@angular/material/button';
     LoginPageComponent,
     RegisterPageComponent,
     HomePageComponent,
-    SettingsPageComponent
+    SettingsPageComponent,
+    MyIdentityPageComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     MatInputModule,
-    MatButtonModule
+    MatButtonModule,
+    MatListModule
   ],
   providers: [],
   bootstrap: [AppComponent]

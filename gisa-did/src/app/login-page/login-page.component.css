@@ -5,6 +5,16 @@
     height: 100%;
 }
 
+.login-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    width: 30%;
+    height: 90%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
 .login-form {
     display: flex;
     flex-direction: column;
@@ -50,14 +60,4 @@ a {
     margin-top: 5%;
     height: 7vh;
     font-size: 2.5vh;
-}
-
-.login-form-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 10px;
-    width: 30%;
-    height: 90%;
-    background: rgba(0, 0, 0, 0.5);
 }

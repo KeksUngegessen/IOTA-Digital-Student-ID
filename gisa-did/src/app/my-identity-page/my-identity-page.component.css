@@ -1,0 +1,36 @@
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.data-container {
+    border-radius: 10px;
+    width: 30%;
+    height: 90%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.data-display-container {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    font-size: 80%;
+}
+
+.data-name-container {
+    min-width: 50%;
+}
+
+
+
+.heading {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 7vh;
+    margin-bottom: 10%;
+    margin-top: 10%;
+}
